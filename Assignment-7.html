@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Players</title>
+</head>
+<body>
+    <h1>Media Players Example</h1>
+
+    <section>
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="audio/example-audio.mp3" type="audio/mpeg">
+            <source src="audio/example-audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>This is an audio player featuring a sample track. Use the controls to play, pause, adjust volume, or scrub through the audio. Multiple source formats are provided for better browser compatibility.</p>
+    </section>
+
+    <section>
+        <h2>Video Player</h2>
+        <video width="640" height="360" controls>
+            <source src="video/example-video.mp4" type="video/mp4">
+            <source src="video/example-video.webm" type="video/webm">
+            Your browser does not support the video element.
+        </video>
+        <p>This video player showcases a sample video clip. The player includes controls for play, pause, volume adjustment, and full-screen viewing. As with the audio, multiple source formats are included for compatibility across different browsers.</p>
+    </section>
+</body>
+</html>
